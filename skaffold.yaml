@@ -1,0 +1,6 @@
+apiVersion: skaffold/v2beta27
+kind: Config
+build:
+  artifacts:
+  - image: kuberadar
+    jib: {}
